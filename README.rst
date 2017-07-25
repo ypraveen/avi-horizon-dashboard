@@ -9,17 +9,17 @@ Avi Horizon UI bits
 READ THIS CAREFULLY BEFORE INSTALLING
 -------------------------------------
 
-If you are using Neutron LBaaSv2 or not planning on exposing Neutron LBaaS at all in
-Horizon and expose only Avi UI, then please follow the INSTALLLATION instructions
-at https://github.com/avinetworks/avi-horizon-dashboard/tree/newton.
-
-The following instructions are for enhancing multi-tabbed LBaaSv1 panel with the
+The following instructions are for enhancing the Horizon multi-tabbed Neutron LBaaSv1 panel with the
 following features:
 
 1. A new tab to manage SSL certificates
 2. A new tab to show Avi Analytics (in read only mode)
 3. Enhancements to "Pools" tab: Ability to associate and disassociate certificates and
    ability to add an extra listening port (LBaaSv1 allows only one listening port per VIP).
+
+If you are using Neutron LBaaSv2 and/or looking to expose the full Avi UI in Horizon (instead of the multi-tabbed LBaaS panel), then please follow the INSTALLATION instructions
+at https://github.com/avinetworks/avi-horizon-dashboard/tree/newton.
+
 
 Installation
 ------------
